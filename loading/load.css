@@ -1,0 +1,26 @@
+#loading {
+    background-color: #ddd;
+    position: fixed;
+    inset: 0; /*marginの一括指定 画面いっぱいに広げる*/
+    place-items: center; /*アイテム配置の一括指定プロパティ*/
+    z-index: 9999;
+}
+
+#loading p {
+    font-family: var(--oswald-font);
+    font-size: 2rem;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#screen {
+    background-color: #afeeee;
+    inset: 0;
+    z-index: 9998;
+    position: fixed;
+    translate: 0 100vh;
+}
