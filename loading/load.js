@@ -24,22 +24,27 @@ Screen.animate(
     translate: ['0 100vh', '0 0', '0 -100vh'],
     },   
     {
-        duration: 2000,
-        delay: 500,
+        duration: 3000,
+        delay: 1000,
         easing: 'ease',
         fill: 'forwards',
     }
 ); 
 
-
 const text = document.querySelector('p');
-
 text.animate = (
+  [  
     {
-        opacity: [1, 0],
+        opacity: 1,
+        offset: 0.5,
     },
     {
-        duration: 1200,
+        opacity: 0,
+        offset: 1,
+    },
+  ],
+    {
+        duration: 300,
         easing: 'ease',
         fill: 'forwards',
     }

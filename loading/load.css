@@ -4,11 +4,13 @@
     inset: 0; /*marginの一括指定 画面いっぱいに広げる*/
     place-items: center; /*アイテム配置の一括指定プロパティ*/
     z-index: 9999;
-}
+    text-align: center;
+    }
 
 #loading p {
-    font-family: var(--oswald-font);
+    font-family: "oswald";
     font-size: 2rem;
+    font-weight: bold;
 }
 
 img {
